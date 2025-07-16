@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the 2017 Honda Civic LX in grey - specs, features, photos, and more.">
+    <title>2017 Honda Civic LX Grey - Specs & Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Honda Civic LX 2017</div>
+            <ul>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#owner">Owner's Corner</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="images/civic-front.jpg" alt="2017 Honda Civic LX Grey Front">
+            <h1>2017 Honda Civic LX Grey</h1>
+            <p>Style, Efficiency, and Reliability in One Package</p>
+        </div>
+    </header>
+
+    <section id="specs">
+        <h2>Specifications</h2>
+        <div class="spec-grid">
+            <div class="spec-item">
+                <h3>Engine</h3>
+                <p>2.0L 4-Cylinder, 158 hp @ 6500 rpm, 138 lb-ft @ 4200 rpm</p>
+            </div>
+            <div class="spec-item">
+                <h3>Fuel Economy</h3>
+                <p>28 city / 40 highway / 32 combined (6-speed manual)</p>
+                <p>31 city / 40 highway / 34 combined (CVT)</p>
+            </div>
+            <div class="spec-item">
+                <h3>Dimensions</h3>
+                <p>Length: 182.3 in, Height: 55.7 in, Weight: ~2749 lbs</p>
+            </div>
+            <div class="spec-item">
+                <h3>Transmission</h3>
+                <p>6-speed manual or CVT</p>
+            </div>
+            <div class="spec-item">
+                <h3>Cargo Space</h3>
+                <p>15.1 cu.ft (trunk)</p>
+            </div>
+            <div class="spec-item">
+                <h3>Safety</h3>
+                <p>6 airbags, Multi-angle rearview camera, Vehicle Stability Assist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Technology</strong>: 5-inch LCD screen, Bluetooth HandsFreeLink, USB audio interface.</li>
+            <li><strong>Comfort</strong>: Cloth seats, spacious cabin with 42.3 in front legroom, 37.4 in rear legroom.</li>
+            <li><strong>Safety</strong>: Honda Sensing available (Collision Mitigation, Lane Departure Warning).</li>
+            <li><strong>Performance</strong>: Nimble handling, Eco Assist System for efficient driving.</li>
+            <li><strong>Design</strong>: Sleek grey exterior, aggressive front grille, modern interior layout.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/civic-front.jpg" alt="Civic Front View" onclick="openLightbox(this.src)">
+            <img src="images/civic-side.jpg" alt="Civic Side View" onclick="openLightbox(this.src)">
+            <img src="images/civic-interior.jpg" alt="Civic Interior" onclick="openLightbox(this.src)">
+            <img src="images/civic-rear.jpg" alt="Civic Rear View" onclick="openLightbox(this.src)">
+        </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="Lightbox Image">
+        </div>
+    </section>
+
+    <section id="owner">
+        <h2>Owner's Corner</h2>
+        <div class="owner-grid">
+            <div class="review">
+                <h3>Owner Review</h3>
+                <p>"The 2017 Civic LX in grey is a fantastic daily driver. Great gas mileage, reliable, and the manual transmission is a joy to drive!" - Alex, Owner</p>
+            </div>
+            <div class="maintenance">
+                <h3>Maintenance Tips</h3>
+                <ul>
+                    <li>Oil Change: Every 7,500 miles or 12 months.</li>
+                    <li>Tire Rotation: Every 5,000-7,500 miles for even wear.</li>
+                    <li>Brake Inspection: Check pads every 15,000 miles.</li>
+                    <li>Air Filter: Replace every 30,000 miles or as needed.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Honda Civic LX Grey Showcase. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
